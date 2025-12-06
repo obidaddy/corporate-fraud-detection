@@ -36,10 +36,10 @@ Aggregated all findings into a composite **Risk Score**.
 * Split Payment: +40 pts
 * Weekend Spend: +20 pts
 
-## 📊 Executive Dashboard
+## Executive Dashboard
 ![Executive Dashboard](Images/Dashboard.png)
 The final output is a prioritized "Hit List" of employees requiring immediate audit.
 
-## 🚀 How to Run
+## How to Run
 1.  Install dependencies: `pip install -r requirements.txt`
 2.  Run the Jupyter Notebook to generate data and perform the audit.
