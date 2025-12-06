@@ -1,8 +1,8 @@
-# Corporate Expense Fraud Detection System 🕵️‍♂️📊
+# Corporate Expense Fraud Detection System 
 
 **Portfolio Project: Forensic Data Analytics**
 
-## 📖 Executive Summary
+## Executive Summary
 This project simulates a forensic audit of corporate procurement data to identify fraud, waste, and abuse. Using a **Rule-Based Detection Engine** and **Statistical Modeling**, I built a system that autonomously flags high-risk transactions.
 
 **Key Results:**
@@ -11,13 +11,13 @@ This project simulates a forensic audit of corporate procurement data to identif
 * **Statistical Anomalies:** Implemented **Benford's Law** to catch unnatural expense reporting.
 * **Risk Scoring:** Developed a weighted scoring model (0-100) to prioritize audits for the CFO.
 
-## 🛠️ Tech Stack
+## Tech Stack
 * **Python:** Pandas, NumPy (Data Processing), Faker (Synthetic Data Generation).
 * **SQL (SQLite):** Complex Window Functions (`LAG`, `LEAD`), Joins, CTEs.
 * **Forensic Math:** Benford's Law Analysis, Haversine Formula (Geospatial Distance).
 * **Visualization:** Matplotlib, Seaborn.
 
-## 🔍 The Investigation Pipeline
+## The Investigation Pipeline
 
 ### 1. Data Simulation
 Generated a synthetic dataset of **50 Employees, 100 Vendors, and 1,000+ Transactions** with specific fraud patterns injected (Ground Truth).
@@ -37,7 +37,7 @@ Aggregated all findings into a composite **Risk Score**.
 * Weekend Spend: +20 pts
 
 ## 📊 Executive Dashboard
-*(Note: Upload your dashboard screenshot here)*
+![Executive Dashboard](Images/Dashboard.png)
 The final output is a prioritized "Hit List" of employees requiring immediate audit.
 
 ## 🚀 How to Run
